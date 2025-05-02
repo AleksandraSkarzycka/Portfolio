@@ -22,7 +22,7 @@
 
 <!-- Footer -->
 <footer>
-    <p>&copy; 2025 My Svelte App. All rights reserved.</p>
+    <p>&copy; 2025 My Portfolio. All rights reserved.</p>
 </footer>
 
 
@@ -53,7 +53,7 @@
     }
     
     main {
-        padding: 2rem;
+        padding: 0;
         text-align: center;
     }
     
