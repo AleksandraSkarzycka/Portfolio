@@ -39,13 +39,13 @@
         height: 90vh;
         width: 100%; }
     .about { 
-        background-color: rgba(212, 255, 0, 0.8);
+        background-color: rgba(212, 255, 0, 0.7);
         border-radius: 15px; 
         width: 500px;
         padding: 1%;
         margin: 1%; }
     .info { 
-        background-color: rgba(212, 255, 0, 0.8);
+        background-color: rgba(212, 255, 0, 0.7);
         border-radius: 15px; 
         width: 700px;
         padding: 1%;
