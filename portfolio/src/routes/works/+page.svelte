@@ -22,7 +22,9 @@
         <img src='{mustangCar}' alt="Rendered red mustang" style="width: 500px;">
         <img src='{fabricClose}' alt="Close-up of rendered fabric texture" style="width: 500px;">
         <img src='{allTextures}' alt="Fabric, metal, cracked pavement, wooden planks, rain droplets, cobblestone, roof tiles, marble, grass and woven renders" style="width: 1004px;">
-        
+    </div>
+    <div class="extras">
+        <a href="$lib/img/PersonalArt.zip" download>Extra Personal Art</a>
     </div>
 </div>
 
