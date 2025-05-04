@@ -1,0 +1,1 @@
+import{t as e,a as s}from"../chunks/4eJc37bH.js";import"../chunks/CpKs5WTC.js";import"../chunks/D5aQaHWx.js";var l=e('<div class="background svelte-kz9lwf"><div class="text svelte-kz9lwf"><h1 class="svelte-kz9lwf">Aleksandra Skarzycka</h1> <p class="svelte-kz9lwf">My Portfolio</p></div></div>');function v(a){var t=l();s(a,t)}export{v as component};
