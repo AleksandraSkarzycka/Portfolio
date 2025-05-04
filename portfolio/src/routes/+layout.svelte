@@ -1,4 +1,6 @@
 <script>
+	import { base } from "$app/paths";
+
     // Import components
 </script>
 
@@ -7,10 +9,10 @@
 <header>
     <nav>
         <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="/works">Works</a></li>
-            <li><a href="/about">About</a></li>
-            <li><a href="/contact">Contact</a></li>
+            <li><a href="{base}/">Home</a></li>
+            <li><a href="{base}/works">Works</a></li>
+            <li><a href="{base}/about">About</a></li>
+            <li><a href="{base}/contact">Contact</a></li>
         </ul>
     </nav>
 </header>

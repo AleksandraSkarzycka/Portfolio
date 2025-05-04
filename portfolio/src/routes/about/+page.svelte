@@ -1,9 +1,5 @@
 <script>
-    import { onMount } from 'svelte';
-
-    onMount(() => {
-        console.log("Home page loaded");
-    });
+    import { base } from '$app/paths';
 </script>
 
 <div class="background">
@@ -20,7 +16,9 @@
             like to improve on my coding skills so I can continue to build awesome websites. <br> <br>
             I currently work at KFC Carlow and hope that in the future that job changes
             to working with creative companies looking for a concept artist or someone who can
-            build websites!
+            build websites! <br> <br>
+
+            <a href="{base}/AleksandraSkarzycka_CV.pdf" download>MY CV</a>
         </p>
     </div>
 </div>
@@ -28,13 +26,13 @@
 <style>
     h1 { color: #1d003f; }
     p { color:#1d003f;
-        font-size: 25px;}
+        font-size: 24px;}
     .background {
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: start;
-        background-image: url('$lib/img/portfolioBlankBG.png');
+        background-image: url('/img/portfolioBlankBG.png');
         background-size: cover;
         height: 90vh;
         width: 100%; }

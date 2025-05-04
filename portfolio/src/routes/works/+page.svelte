@@ -1,15 +1,5 @@
 <script>
-    import { onMount } from 'svelte';
-
-    import greyCube from '$lib/img/cube_aleksandra.png';
-    import redApple from '$lib/img/APPLE_RENDER_ALEKSANDRA.png';
-    import mustangCar from '$lib/img/MUSTANG_RENDER_ALEKSANDRA.png';
-    import fabricClose from '$lib/img/fabrictexture_closeup.png';
-    import allTextures from '$lib/img/TEXTURES_DIGITAL_ALEKSANDRA.png';
-
-    onMount(() => {
-        console.log("Home page loaded");
-    });
+    import { base } from '$app/paths';
 </script>
 
 <div class="background">
@@ -17,14 +7,15 @@
         <h1>MY WORKS</h1>
     </div>
     <div class="layout">
-        <img src='{greyCube}' alt="Grey 3D slightly chipped cube" style="width: 500px;">
-        <img src='{redApple}' alt="Rendered red apple" style="width: 500px;">
-        <img src='{mustangCar}' alt="Rendered red mustang" style="width: 500px;">
-        <img src='{fabricClose}' alt="Close-up of rendered fabric texture" style="width: 500px;">
-        <img src='{allTextures}' alt="Fabric, metal, cracked pavement, wooden planks, rain droplets, cobblestone, roof tiles, marble, grass and woven renders" style="width: 1004px;">
+        <img src='{base}/img/cube_aleksandra.png' alt="Grey 3D slightly chipped cube" style="width: 500px;">
+        <img src='{base}/img/APPLE_RENDER_ALEKSANDRA.png' alt="Rendered red apple" style="width: 500px;">
+        <img src='{base}/img/MUSTANG_RENDER_ALEKSANDRA.png' alt="Rendered red mustang" style="width: 500px;">
+        <img src='{base}/img/fabrictexture_closeup.png' alt="Close-up of rendered fabric texture" style="width: 500px;">
+        <img src='{base}/img/TEXTURES_DIGITAL_ALEKSANDRA.png' alt="Fabric, metal, cracked pavement, wooden planks, rain droplets, cobblestone, roof tiles, marble, grass and woven renders" style="width: 1004px;">
     </div>
     <div class="extras">
-        <a href="$lib/img/PersonalArt.zip" download>Extra Personal Art</a>
+        <a href="{base}/PixelArt.zip" download>Extra Pixel Art</a> <br>
+        <a href="{base}/PersonalExtraArt.zip" download>Extra Personal Art</a>
     </div>
 </div>
 
@@ -35,11 +26,17 @@
         flex-direction: column;
         align-items: center;
         justify-content: start;
-        background-image: url('$lib/img/portfolioBlankBG.png');
+        background-image: url('/img/portfolioBlankBG.png');
         background-size: cover;
-        height: 500vh;
+        height: 140vh;
         width: 100%; }
     .works { 
+        background-color: rgba(212, 255, 0, 0.7);
+        border-radius: 15px; 
+        width: 500px;
+        padding: 1%;
+        margin: 1%; }
+    .extras { 
         background-color: rgba(212, 255, 0, 0.7);
         border-radius: 15px; 
         width: 500px;

@@ -1,9 +1,5 @@
 <script>
-    import { onMount } from 'svelte';
-
-    onMount(() => {
-        console.log("Home page loaded");
-    });
+    import { base } from '$app/paths';
 </script>
 
 <div class="background">
@@ -29,7 +25,7 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        background-image: url('$lib/img/portfolioBG.png');
+        background-image: url('/img/portfolioBG.png');
         background-size: cover;
         height: 90vh;
         width: 100%; }
