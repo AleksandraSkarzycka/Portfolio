@@ -8,6 +8,7 @@ Got help from Libor to create the live GitHub page, other than that I had no oth
 # Personal Info
 Name: Aleksandra Skarzycka <br>
 Student ID: C00294397
+Submission Date: 5th May 2025
 
 # Live Link
 https://aleksandraskarzycka.github.io/Portfolio/ <br>
