@@ -10,5 +10,5 @@ Name: Aleksandra Skarzycka <br>
 Student ID: C00294397
 
 # Live Link
-https://aleksandraskarzycka.github.io/Portfolio/
+https://aleksandraskarzycka.github.io/Portfolio/ <br>
 Mainly followed the colour scheme of my prototype of the portfolio but changed the layout and what I wanted to show.
